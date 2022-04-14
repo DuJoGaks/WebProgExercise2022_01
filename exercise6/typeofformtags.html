@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <style>
+            div{color:white;}
+            h2:first-letter{font-size:30px; color:red; text-transform: uppercase;}
+            h3:first-line{color: blue;}
+            input:focus{background-color: red;}
+            input:checked+div.d1{background-color: gray;}
+            input:checked+div.d2{background-color: black;}
+        </style>
+    </head>
+    <body>
+        <h2>states pseudo-classed</h2>
+        <h3>Q) What is the capital of Korea?</h3>
+        <p>Write the answer: <input type="text"></p>
+        <h2>answer</h2>
+            See hints: <input type="checkbox">
+        <div class="d1"> The place where Namdaemun is located </div> 
+        See the answer: <input type="checkbox">
+        <div class="d2"> SEOUL </div>
+    </body>
+</html>
