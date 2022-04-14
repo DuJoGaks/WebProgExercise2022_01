@@ -2,15 +2,18 @@
     <head>
         <title>My Home Page</title>
         <style>
+            img{width:150px;}
             .header{height:125px;}
 
             .head_item{float:left;
                         padding:10px;
                         vertical-align:middle;}
 
-            .middle{overflow: hidden;
-                    border-top:2px solid gray;
-                    border-bottom:2px solid gray; padding-top:10px;}
+            .middle{
+                    overflow: hidden;
+                    border-color: gray;
+                    border-top:2px solid ;
+                    border-bottom:2px solid ; padding-top:10px;}
 
             .left{float: left;
                 background-color: #cfcfff;
@@ -22,7 +25,6 @@
 
             .right{float:left;
                 padding-left:10px;}
-
             h1{color:blue;}
             .left a{text-decoration:none;}
             .left a:link{color:navy;}
@@ -33,10 +35,12 @@
         </style>
     </head>
     <body>
+
         <div class="header">
-            <img class="head_item" src="/apple.png" width="200">
+            <img class="head_item" src="./sky.jpg" width="200">
             <h1 class="head_item">My Home Page</h1>
         </div>
+
         <div class="middle">
             <div class="left">
                 <a href="https://naver.com">Home</a>
@@ -59,11 +63,13 @@
                 </ul>
             </div>
         </div>
+
         <div class="footer">
             <em>Last Modified on </em>
             <em class="highlight">April.07,2022.</em>
             <br/>
             <em>Managed by me</em>
         </div>
+
     </body>
 </html>
