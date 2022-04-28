@@ -8,8 +8,16 @@
         <script type="text/javascript">
             document.write("Hello, World!<br>");
             document.write(document.title);
+            function over(obj){
+                obj.src="/balsam.jpg";
+            }
+            function out(obj){
+                obj.src="/apple.png";
+            }
             //some comments!
             /*comments, too*/
         </script>
+        <img src="/apple.png" alt="image" onmouseover="over(this)" onmouseout="out(this)">
+        
     </body>
 </html>
