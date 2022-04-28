@@ -1,0 +1,1 @@
+document.write("b.js -> testbed Hello, world!<br>");
